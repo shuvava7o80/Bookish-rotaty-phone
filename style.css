@@ -70,5 +70,24 @@ body{
 
 .menu2-border {
 text-decoration: none;
-color: grey;
+color:#2F2B4380;
+top: 185px;
+position: absolute;
+
+}
+
+.conact-info{
+    color:#2F2B4380;
+}
+
+.Main1 {
+    font-size: 38px;
+    font-weight: 700px;
+    line-height: 52px;
+
+    max-width: 657px;
+    height: 104px;
+    top: 77px;
+    position: relative;
+    overflow: hidden;
 }
