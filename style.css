@@ -83,46 +83,29 @@ position: absolute;
 .Main1 {
     font-size: 38px;
     font-weight: 700px;
-    line-height: 52px;
+    max-width: 490px;
+left: 150px;
+margin-top: -300px;
 
-    max-width: 657px;
-    height: 104px;
-    top: 77px;
-    position: relative;
-    overflow: hidden;
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 38px;
+letter-spacing: -0.03em;
+color: #140A32;
+
+
 }
 
 .FrameMan1{
     position: relative;
-    width: 377px;
     height: 402px;
     left: 820px;
     top: 40px;
 }
 
-.Main1{
-    position: relative;
-    width: 65px;
-    height: 10px;
-    top: -320px;
-}
-.Main10{
-    position: relative;
-    width: 65px;
-    height: 10px;
-    top: -270px;
-    font-size: 38px;
-    font-weight: 700px;
-    line-height: 52px;
-    left: -450px;
+.Main1_1 {
 
-    max-width: 657px;
-    height: 104px;
-    
-}
-
-.Main11{
-    position: relative;
 width: 657px;
 height: 78px;
 left: 150px;
@@ -131,16 +114,133 @@ top: 396px;
 font-family: 'Open Sans';
 font-style: normal;
 font-weight: 400;
-font-size: 16px;
+font-size: 21px;
 line-height: 160%;
-/* or 26px */
-
-/* Base/Black */
 color: #140A32;
+letter-spacing: -0.05em;
+
+}
+
+.Green_Button{
+/* button */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 16px 36px 18px;
+gap: 10px;
+
+width: 253px;
+height: 56px;
+
+background: #33836E;
+border-radius: 10px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
 
 
-/* Base/Black */
-color: #140A32;
+/* Задать вопрос юристу */
+
+width: 181px;
+height: 22px;
+
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 22px;
+/* identical to box height */
+display: flex;
+align-items: center;
+text-align: center;
+
+/* Base/White */
+color: #FFFFFF;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+}
+
+.number{
+    /* Frame 979 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 2px;
+
+width: 180px;
+height: 35px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* 8 800 302-92-70 */
+
+width: 180px;
+height: 33px;
+
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 33px;
+/* identical to box height */
+
+/* green */
+color: #33836E;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Line 1 */
+
+width: 178px;
+height: 0px;
+
+/* green */
+border: 2px solid #33836E;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+}
+
+.Free_Call{
+    /* Бесплатный звонок юристу 24/7 */
+
+width: 189px;
+height: 16px;
+
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 16px;
+
+/* Gray/Medium */
+color: rgba(47, 43, 67, 0.5);
 
 
 /* Inside auto layout */
