@@ -48,21 +48,28 @@ body{
 .menu{
     display: flex;
     margin-top: 40px;
-    gap: 30px;
+    gap: 25px;
     justify-content: space-between;
     font-size: 16px;  
     align-items: center;
-    gap: 15px;
+}
+
+.phonee{
     border: 1px solid rgb(148, 148, 148);
     border-radius: 8px;
+    display: flex;
+    height: 40px;
+    width: 190px;
+    gap: 10px;
 }
 
-.menub1{
-    
-}
-
-.menub2{
-    
+.telegramm{
+    border: 1px solid rgb(148, 148, 148);
+    border-radius: 8px;
+    display: flex;
+    height: 40px;
+    width: 130px;
+    gap:10px;
 }
  
 .menu a{
@@ -73,22 +80,15 @@ body{
 .menu-border{
 display: flex;
 align-items: center;
-/*border: 1px solid rgb(148, 148, 148);
-border-radius: 10px;
-padding: 10px 18px;
-font-size: 16px;
-
-width: 24px;
-height: 24px;
-
-justify-content: flex-start;
-*/
 
 }
 
 .image1{
-width: 28px;
-height: 28px;
+
+width: 20px;
+height: 44px;
+padding-left: 10px;
+
 }
 
 .menu2{
@@ -265,9 +265,71 @@ flex-grow: 0;
 }
 
 .clockIMG{
-
+display: block;
 
 }
+.CLOCKO{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin: 40px 0;
+    width: 100%;
+}
+
+
+.ClockING{
+display: flex;
+align-items: center;  
+gap: 12px;  
+}
+.clock {
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 .clock{
    /* Круглосуточно */
@@ -313,6 +375,67 @@ color: #140A32;
 margin-top: 90px;
 }
 
+.Jcolums{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.Jblock {
+    border: 1px solid rgb(148, 148, 148);
+    border-radius: 8px;
+    /* Frame 11 */
+
+box-sizing: border-box;
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: flex-start;
+padding: 20px;
+gap: 15px;
+
+width: 280px;
+height: 180px;
+
+/* Gray/Borders */
+border: 1px solid rgba(47, 43, 67, 0.15);
+border-radius: 20px;
+
+
+
+
+
+
+
+
+
+
+}
+/*
+.Jblock2 {
+    display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: flex-start;
+padding: 20px;
+gap: 15px;
+
+width: 230px;
+height: 180px;
+
+border: 1px solid rgba(47, 43, 67, 0.15);
+border-radius: 20px;
+}
+
+width: 230px;
+height: 180px;
+
+border: 1px solid rgba(47, 43, 67, 0.15);
+border-radius: 20px;
+}
+*/
+
 .BLOCK1_1{
 /* 8 800 302-92-70 */
 
@@ -326,7 +449,51 @@ font-size: 20px;
 line-height: 27px;
 color: #140A32;
 
+margin-top: -19px;
+
 }
+
+.image2{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding-top: 20px;
+gap: 15px;
+text-align: center;
+flex-shrink: 0;
+
+}
+
+.big_image1{
+    margin-top: 90px;
+    margin-left: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 .BLOCK1_2{
     /* Заказать звонок */
@@ -339,6 +506,8 @@ font-style: normal;
 font-weight: 600;
 font-size: 16px;
 line-height: 22px;
+
+margin-top: 0px;
 
 color: #33836E;
 
@@ -1416,5 +1585,369 @@ letter-spacing: -0.03em;
 /* Base/Black */
 color: #140A32;
 
+
+}
+
+.Main7_1{
+/* А */
+
+width: 270px;
+height: 33px;
+
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 33px;
+/* identical to box height */
+
+/* Base/Black */
+color: #140A32;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+}
+
+.Main7_2{
+
+/* Б */
+
+width: 270px;
+height: 33px;
+
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 33px;
+/* identical to box height */
+
+/* Base/Black */
+color: #140A32;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+}
+
+.Main7_3{
+/* Б */
+
+width: 270px;
+height: 33px;
+
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 33px;
+/* identical to box height */
+
+/* Base/Black */
+color: #140A32;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+}
+.Main7_4{
+    /* Б */
+
+width: 270px;
+height: 33px;
+
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 33px;
+/* identical to box height */
+
+/* Base/Black */
+color: #140A32;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+}
+.Main7_5{
+    /* Б */
+
+width: 270px;
+height: 33px;
+
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 33px;
+/* identical to box height */
+
+/* Base/Black */
+color: #140A32;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+}
+.Main7_6{
+   /* Б */
+
+width: 270px;
+height: 33px;
+
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 33px;
+/* identical to box height */
+
+/* Base/Black */
+color: #140A32;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+ 
+}
+.Main7_7{
+    /* Б */
+
+width: 270px;
+height: 33px;
+
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 33px;
+/* identical to box height */
+
+/* Base/Black */
+color: #140A32;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+}
+.Main7_8{
+    /* Б */
+
+width: 270px;
+height: 33px;
+
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 33px;
+/* identical to box height */
+
+/* Base/Black */
+color: #140A32;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+}
+.Main7_9{
+    /* Б */
+
+width: 270px;
+height: 33px;
+
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 33px;
+/* identical to box height */
+
+/* Base/Black */
+color: #140A32;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+}
+.Main7_10{
+    /* Б */
+
+width: 270px;
+height: 33px;
+
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 33px;
+/* identical to box height */
+
+/* Base/Black */
+color: #140A32;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+}
+.Main7_11{
+    /* Б */
+
+width: 270px;
+height: 33px;
+
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 33px;
+/* identical to box height */
+
+/* Base/Black */
+color: #140A32;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+}
+.Main7_12{
+    /* Б */
+
+width: 270px;
+height: 33px;
+
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 33px;
+/* identical to box height */
+
+/* Base/Black */
+color: #140A32;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+}
+.Main7_13{
+    /* Б */
+
+width: 270px;
+height: 33px;
+
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 33px;
+/* identical to box height */
+
+/* Base/Black */
+color: #140A32;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+}
+.Main7_14{
+    /* Б */
+
+width: 270px;
+height: 33px;
+
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 33px;
+/* identical to box height */
+
+/* Base/Black */
+color: #140A32;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+}
+.Main7_15{
+    /* Б */
+
+width: 270px;
+height: 33px;
+
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 33px;
+/* identical to box height */
+
+/* Base/Black */
+color: #140A32;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
 
 }
