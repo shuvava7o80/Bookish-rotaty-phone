@@ -1303,7 +1303,7 @@ flex-grow: 0;
 
 /* Показать весь текст */
 
-width: 163px;
+width: 1111px;
 height: 22px;
 
 font-family: 'Open Sans';
@@ -1326,6 +1326,68 @@ order: 0;
 flex-grow: 0;
 
 }
+
+.WhyWe{
+
+}
+
+.Whytext1{
+    /* Почему стоит выбрать нас? */
+
+position: absolute;
+width: 442px;
+height: 44px;
+
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 32px;
+line-height: 44px;
+/* identical to box height */
+letter-spacing: -0.03em;
+
+/* Base/Black */
+color: #140A32;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 .Main5{
     /* Отзывы наших клиентов */
